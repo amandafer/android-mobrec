@@ -1,0 +1,10 @@
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/classes/debug
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/google-http-client-android2-1.10.3-beta-8d482697dc499682ba8306b5982494ef0fff7a4e.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b070fc64068122e162d7eede0d205b6677579de4.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/google-api-client-android2-1.10.3-beta-8127367a97826575c782ee73a6262c99a8beb9e0.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/google-api-client-1.10.3-beta-9613624637259688fddee96ea49979fa52fbee96.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d5f7546087a1eff3573c0c139675c739dd7351f1.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/google-http-client-1.10.3-beta-1ea3e551fd54505f13fa9c91984ccd665e93b756.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/classes-6f630771585afa0fb774bcba88a9af35f164fb3d.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/classes-e28b75bd38c3de440f79c7deb3f0bf147d50439f.jar
+/Users/amandafernandes/Desktop/Mobrec/app/build/intermediates/pre-dexed/debug/classes-0a91268f828fe1c75a8c930ac03e7e42e0062386.jar
