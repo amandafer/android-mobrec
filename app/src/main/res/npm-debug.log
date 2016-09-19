@@ -1,0 +1,234 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'protractor' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'protractor', null ]
+7 verbose cache add spec protractor
+8 silly cache add parsed spec { raw: 'protractor',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'protractor',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed protractor@*
+10 verbose addNamed "*" is a valid semver range for protractor
+11 silly addNameRange { name: 'protractor', range: '*', hasData: false }
+12 silly mapToRegistry name protractor
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/protractor
+16 verbose addNameRange registry:https://registry.npmjs.org/protractor not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/protractor
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 3:44:33 PM
+20 verbose request id 6b157f2fa7d675d0
+21 http request GET https://registry.npmjs.org/protractor
+22 http 200 https://registry.npmjs.org/protractor
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"7ZNKL1CS5VRLHTAL3Z0RUYXAO"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '89958',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Mon, 14 Sep 2015 14:44:35 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '12',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lcy1132-LCY',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1442241875.562610,VS0,VE1',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving protractor to /Users/amandafernandes/.npm/registry.npmjs.org/protractor/.cache.json
+25 silly addNameRange number 2 { name: 'protractor', range: '*', hasData: true }
+26 silly addNameRange versions [ 'protractor',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '0.11.0',
+26 silly addNameRange     '0.12.0',
+26 silly addNameRange     '0.12.1',
+26 silly addNameRange     '0.13.0',
+26 silly addNameRange     '0.14.0',
+26 silly addNameRange     '0.15.0',
+26 silly addNameRange     '0.16.0',
+26 silly addNameRange     '0.16.1',
+26 silly addNameRange     '0.17.0',
+26 silly addNameRange     '0.18.0',
+26 silly addNameRange     '0.18.1',
+26 silly addNameRange     '0.19.0',
+26 silly addNameRange     '0.20.0',
+26 silly addNameRange     '0.20.1',
+26 silly addNameRange     '0.21.0',
+26 silly addNameRange     '0.22.0',
+26 silly addNameRange     '0.23.0',
+26 silly addNameRange     '0.23.1',
+26 silly addNameRange     '0.24.0',
+26 silly addNameRange     '0.24.1',
+26 silly addNameRange     '0.24.2',
+26 silly addNameRange     '1.0.0-rc1',
+26 silly addNameRange     '1.0.0-rc2',
+26 silly addNameRange     '1.0.0-rc3',
+26 silly addNameRange     '1.0.0-rc4',
+26 silly addNameRange     '1.0.0-rc5',
+26 silly addNameRange     '1.0.0-rc6',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.2.0-beta1',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.1',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.6.0',
+26 silly addNameRange     '1.6.1',
+26 silly addNameRange     '1.7.0',
+26 silly addNameRange     '1.8.0',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.2.0' ] ]
+27 silly addNamed protractor@2.2.0
+28 verbose addNamed "2.2.0" is a plain semver version for protractor
+29 silly mapToRegistry name protractor
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/protractor
+33 verbose addRemoteTarball https://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz',
+34 verbose addRemoteTarball   '18eebf99c252e977f5bac0faf35163d01acf6172' ]
+35 info retry fetch attempt 1 at 3:44:35 PM
+36 info attempt registry request try #1 at 3:44:35 PM
+37 http fetch GET https://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz
+38 http fetch 200 https://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz
+39 silly fetchAndShaCheck shasum 18eebf99c252e977f5bac0faf35163d01acf6172
+40 verbose addTmpTarball /var/folders/ln/clf8vyf53bzbdwb3drh5d9g40000gn/T/npm-64294-1d6f03a1/registry.npmjs.org/protractor/-/protractor-2.2.0.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for protractor@2.2.0
+42 silly cache afterAdd protractor@2.2.0
+43 verbose afterAdd /Users/amandafernandes/.npm/protractor/2.2.0/package/package.json not in flight; writing
+44 verbose afterAdd /Users/amandafernandes/.npm/protractor/2.2.0/package/package.json written
+45 silly install resolved [ { name: 'protractor',
+45 silly install resolved     description: 'Webdriver E2E test wrapper for Angular.',
+45 silly install resolved     homepage: 'https://github.com/angular/protractor',
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'angular',
+45 silly install resolved        'test',
+45 silly install resolved        'testing',
+45 silly install resolved        'webdriver',
+45 silly install resolved        'webdriverjs',
+45 silly install resolved        'selenium' ],
+45 silly install resolved     author: { name: 'Julie Ralph', email: 'ju.ralph@gmail.com' },
+45 silly install resolved     dependencies:
+45 silly install resolved      { request: '~2.57.0',
+45 silly install resolved        'selenium-webdriver': '2.45.1',
+45 silly install resolved        minijasminenode: '1.1.1',
+45 silly install resolved        jasminewd: '1.1.0',
+45 silly install resolved        jasminewd2: '0.0.5',
+45 silly install resolved        jasmine: '2.3.1',
+45 silly install resolved        saucelabs: '~0.1.0',
+45 silly install resolved        glob: '~3.2',
+45 silly install resolved        'adm-zip': '0.4.4',
+45 silly install resolved        optimist: '~0.6.0',
+45 silly install resolved        q: '1.0.0',
+45 silly install resolved        lodash: '~2.4.1',
+45 silly install resolved        'source-map-support': '~0.2.6',
+45 silly install resolved        'html-entities': '~1.1.1',
+45 silly install resolved        'accessibility-developer-tools': '~2.6.0' },
+45 silly install resolved     devDependencies:
+45 silly install resolved      { 'expect.js': '~0.2.0',
+45 silly install resolved        chai: '~1.8.1',
+45 silly install resolved        'chai-as-promised': '~4.1.0',
+45 silly install resolved        jshint: '2.5.0',
+45 silly install resolved        mocha: '1.21.4',
+45 silly install resolved        cucumber: '~0.4.9',
+45 silly install resolved        express: '~3.3.4',
+45 silly install resolved        lodash: '~2.4.1',
+45 silly install resolved        rimraf: '~2.2.6' },
+45 silly install resolved     repository: { type: 'git', url: 'git://github.com/angular/protractor.git' },
+45 silly install resolved     bin:
+45 silly install resolved      { protractor: 'bin/protractor',
+45 silly install resolved        'webdriver-manager': 'bin/webdriver-manager' },
+45 silly install resolved     main: 'lib/protractor.js',
+45 silly install resolved     scripts:
+45 silly install resolved      { pretest: 'jshint lib spec scripts',
+45 silly install resolved        test: 'node scripts/test.js',
+45 silly install resolved        start: 'node testapp/scripts/web-server.js' },
+45 silly install resolved     license: 'MIT',
+45 silly install resolved     version: '2.2.0',
+45 silly install resolved     gitHead: '4a97370608694343cefdfcfd3f93ca4526d44161',
+45 silly install resolved     bugs: { url: 'https://github.com/angular/protractor/issues' },
+45 silly install resolved     _id: 'protractor@2.2.0',
+45 silly install resolved     _shasum: '18eebf99c252e977f5bac0faf35163d01acf6172',
+45 silly install resolved     _from: 'protractor@*',
+45 silly install resolved     _npmVersion: '1.4.28',
+45 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+45 silly install resolved     maintainers: [ [Object], [Object] ],
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '18eebf99c252e977f5bac0faf35163d01acf6172',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz' },
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/protractor/-/protractor-2.2.0.tgz' } ]
+46 info install protractor@2.2.0 into /usr/local/lib
+47 info installOne protractor@2.2.0
+48 verbose installOne of protractor to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/amandafernandes/.npm/_locks/protractor-edd41eb41b480e40.lock for /usr/local/lib/node_modules/protractor
+50 silly install write writing protractor 2.2.0 to /usr/local/lib/node_modules/protractor
+51 verbose unbuild lib/node_modules/protractor
+52 silly gentlyRm /usr/local/lib/node_modules/protractor is being purged from base /usr/local
+53 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/protractor
+54 verbose tar unpack /Users/amandafernandes/.npm/protractor/2.2.0/package.tgz
+55 verbose tar unpacking to /usr/local/lib/node_modules/protractor
+56 silly gentlyRm /usr/local/lib/node_modules/protractor is being purged
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/protractor
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/amandafernandes/.npm/protractor/2.2.0/package.tgz
+60 verbose unlock done using /Users/amandafernandes/.npm/_locks/protractor-edd41eb41b480e40.lock for /usr/local/lib/node_modules/protractor
+61 verbose fstream_path /usr/local/lib/node_modules/protractor
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/protractor'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+66 verbose cwd /Users/amandafernandes/Desktop/Mobrec/app/src/main/res
+67 error Darwin 14.4.0
+68 error argv "node" "/usr/local/bin/npm" "install" "-g" "protractor"
+69 error node v0.12.7
+70 error npm  v2.11.3
+71 error path /usr/local/lib/node_modules/protractor
+72 error code EACCES
+73 error errno -13
+74 error Error: EACCES, mkdir '/usr/local/lib/node_modules/protractor'
+74 error     at Error (native)
+74 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/protractor']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   path: '/usr/local/lib/node_modules/protractor',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/local/lib/node_modules/protractor',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+74 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+74 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/protractor
+78 silly gentlyRm /usr/local/lib/node_modules/protractor is being purged from base /usr/local
+79 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/protractor
